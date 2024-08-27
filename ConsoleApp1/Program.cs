@@ -83,6 +83,9 @@ namespace ConsoleApp1
             return res;
         }
 
+
+
+        //TEST
         static Thread[] CreateFewThreads(int n, ThreadPriority threadPriority)
         {
             var threads = new List<Thread>();
