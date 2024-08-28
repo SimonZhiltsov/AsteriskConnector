@@ -69,6 +69,12 @@ namespace ConsoleApp1
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="index"></param>
+        /// <param name="threadPr"></param>
+        /// <returns></returns>
         static Thread CreateThread(long index, ThreadPriority threadPr)
         {
             var res = new Thread(() =>
@@ -84,7 +90,12 @@ namespace ConsoleApp1
         }
 
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="threadPriority"></param>
+        /// <returns></returns>
         //TEST
         //
         static Thread[] CreateFewThreads(int n, ThreadPriority threadPriority)
